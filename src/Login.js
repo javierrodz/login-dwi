@@ -60,8 +60,8 @@ function Login() {
                     <button type='submit' className='btn btn-success w-100 rounded-0'><strong>Log In</strong></button>
                         <p></p>
                     <Link to="/singup" className='btn btn-default border w-100 bg-light rounded-0 text-decoration-none'>Create Account</Link>
-
-                    <button type="reset" className='btn btn-danger border w-100 bg-light rounded-0 text-decoration-none'>Reset Password</button>
+                        <p></p>
+                    <Link type="/ResetPasword" className='btn btn-default border w-100 bg-light rounded-0 text-decoration-none'>Reset Password</Link>
                 </form>
             </div>
         </div>
