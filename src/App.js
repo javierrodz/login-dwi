@@ -8,9 +8,11 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={<Login/>}></Route>
-        <Route path='/singup' element={<Signup/>}></Route>
-        <Route path='/home' element={<Home/>}></Route>
+        <Route path='/' element={<Login/>}/>
+        <Route path='/singup' element={<Signup/>}/>
+        <Route path='/home' element={<Home/>}/>
+        <Route path="/forgot-password" component={ForgotPassword} />
+        <Route path="/reset-password/:token" component={ResetPassword} />
       </Routes>
     </BrowserRouter>
   );
